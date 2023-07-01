@@ -49,7 +49,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title("都内のレストランを薦めてくれるチャットボット")
-st.image("01_recipe.png")
+st.image("guyswbeer.png")
 st.write("どんなレストランが良いですか？")
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
